@@ -1,0 +1,4 @@
+click>=8.1.0
+sqlalchemy>=2.0.0
+pytest>=8.0.0
+ruff>=0.3.0

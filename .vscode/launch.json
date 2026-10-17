@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Квест: Play (Начать/продолжить)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/quest.py",
+            "args": ["play"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Квест: Play (--new С начала)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/quest.py",
+            "args": ["play", "--new"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Квест: Stats (Статистика)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/quest.py",
+            "args": ["stats"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
